@@ -1,0 +1,18 @@
+.redes-fixed{
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    left: 1px;
+    top: 90%;
+    width: 90px;
+}
+.images{ 
+    display: block;
+    width:40px;
+    margin: 20px;
+    border-radius:36px;
+    height: 30px;
+}

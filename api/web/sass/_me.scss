@@ -1,0 +1,25 @@
+.me{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    &__img-container{
+      border: 1px solid white;
+      width: 30%;
+      height: 50em;
+      margin-bottom: 0;     
+      background-image: url(./images/santi-pijama.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+    &__description{
+        width: 30%;
+        border: 1px solid white;
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 0;
+        transform: translateY(-22px);
+    }
+}

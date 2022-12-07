@@ -1,0 +1,49 @@
+.presentation{
+    position: relative;
+    bottom: 18px;
+    padding: 16px;
+    color: #fff;
+    font-weight: bold;
+ 
+    &__hola{
+        animation: changeColor 5s linear infinite;
+       font-size: 70px;
+       font-family: 'Merienda', cursive;
+
+    }
+    &__soy{
+        animation: changeColor 5s linear infinite;
+        font-size: 70px;
+        font-family: 'Merienda', cursive;
+
+    }
+    &__newton{
+        animation: changeColor 8s linear infinite;
+        font-size: 70px;
+        font-family: 'Merienda', cursive;
+    }
+
+    
+}
+
+
+@keyframes changeColor {
+    0%{
+        color : rgb(70,50,215);
+    }
+    25%{
+        color : rgb(5,24,140);
+    }
+    50%{
+        color : rgb(50,0,255);
+    }
+    75%{
+        color : rgb(90,4,140);
+    }
+    85%{
+       color:  rgb(110,15,240);
+    }
+    100%{
+        color : rgb(90,46,255);
+    }
+}
